@@ -108,4 +108,44 @@
     transform: scale(0.95);
   }
   
+  .homepage-content-item{
+    display: flex;
+    flex-direction: row;
+
+  }
+.homepage-item{
+  width: 33.33%;
   
+  height: 300px;
+}
+svg{
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.homepage-content-item{
+  margin: 30px 15px;
+}
+.homepage-content-title > h2{
+  font-family: "Roboto", Sans-serif !important;
+  text-align: center;
+  
+  font-weight: 500;
+}
+
+.item-content-description > p{
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.item-content-title > h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-align: center;
+}
